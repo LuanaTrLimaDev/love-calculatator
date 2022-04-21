@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300&family=Sansita+Swashed:wght@300;800&family=Send+Flowers&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #FCFCFC;
+}
+.card-rosa-cinza {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-rosa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    background-color: #FFF1F5;
+    min-height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nome-casal {
+    font-size: 50px;
+    font-family: 'Sansita Swashed', cursive;
+    margin-top: 30px;
+    color: #A60AB4;
 }
 
-.App-link {
-  color: #61dafb;
+.coracao1 {
+    font-size: 70px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #F750FB;
+    margin-bottom: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resultado-love {
+    font-size: 70px;
+    font-family: 'Sansita Swashed', cursive; 
+    font-weight: bold;
+    color: #FED4FF;
+    text-shadow:
+        -1px -1px 0px #AD00B0,
+        -1px 1px 0px #AD00B0,
+        1px -1px 0px #AD00B0,
+        1px 0px 0px #AD00B0;
+        margin-top: -275px;
+}
+
+.coracao2 {
+    margin-top: -228px;
+   color:  #AD00B0;
+   margin-bottom: -40px;
+}
+
+.msg-resultado {
+    color: #720260;
+    font-size: 35px;
+    font-family: 'Sansita Swashed', cursive; 
+    margin-bottom: 10px;
+}
+
+.engloba-nomes-casal {
+    display: block;
+    margin-left: auto;
+    width: fit-content;
+    margin-left: 760px;
+
+}
+
+.titulo-love {
+    font-family: 'Send Flowers', cursive;
+    font-size: 70px;
+
+}
+
+.titulo-calculator {
+    margin-bottom: 150px;
+    font-family: 'Rosario', sans-serif;
+    font-size: 61px;
+    margin-left: 43px;
+    color: #FED4FF;
+    text-shadow:
+        -1px -1px 0px #AD00B0,
+        -1px 1px 0px #AD00B0,
+        1px -1px 0px #AD00B0,
+        1px 0px 0px #AD00B0;
+}
+.engloba-form-nome {
+flex: 1;
+padding: 10px;
+}
+
+
+.btn-calcular {
+    display: block;
+    margin: 0 auto;
+    padding: 7px 58px;
+    font-size: 18px;
+    margin-top: 100px;
+    color: #fff;
+    background-color: #AD00B0;
+    border-radius: 17px;
+    border: none;
+    font-family: 'Rosario', sans-serif;
+
+
+}
+
+#NomeEla {
+    margin-right: 70px;
+}
+
+input {
+    background: #FFF1F5;
+    border: 1px solid #AD00B0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 200px;
+    height: 35px;
+    padding: 7px 14px;
 }
